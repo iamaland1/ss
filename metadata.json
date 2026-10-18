@@ -1,0 +1,6 @@
+{
+  "name": "Sirat - بەرنامەی ئیسلامی سیرات",
+  "description": "ئەپی ئیسلامی سیرات: کاتی بانگ، قورئانی پیرۆز بە تەفسیر و دەنگ، زیکر و دوعاکان، تەسبیحی ئەلیکترۆنی، ئاراستەی قیبلە، تەقویمی کۆچی و بەشی بەڕێوەبردن بۆ ناردنی پەیامەکان.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
