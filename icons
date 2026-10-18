@@ -1,0 +1,82 @@
+import React from 'react';
+
+interface QuranIconProps {
+  className?: string;
+  size?: number;
+  style?: React.CSSProperties;
+}
+
+export const QuranIcon: React.FC<QuranIconProps> = ({ 
+  className = '', 
+  size = 24,
+  style 
+}) => {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 100 100"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      style={style}
+    >
+      <path
+        d="M20 8 L85 12 L88 62 L22 58 Z"
+        fill="currentColor"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M22 58 L88 62 L86 68 L24 64 Z"
+        fill="currentColor"
+        opacity="0.7"
+      />
+      <path
+        d="M24 64 L86 68 L84 72 L26 68 Z"
+        fill="currentColor"
+        opacity="0.5"
+      />
+      <path
+        d="M10 72 L50 70 L90 72 L92 88 L50 86 L8 88 Z"
+        fill="currentColor"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinejoin="round"
+      />
+      <line
+        x1="50" y1="70"
+        x2="50" y2="86"
+        stroke="white"
+        strokeWidth="1.5"
+        opacity="0.5"
+      />
+      <g transform="translate(50, 35)">
+        <path
+          d="M-8 -12 L-8 10"
+          stroke="white"
+          strokeWidth="3"
+          strokeLinecap="round"
+        />
+        <circle cx="-8" cy="-15" r="1.5" fill="white" />
+        <path
+          d="M0 -12 L0 10 L8 10"
+          stroke="white"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+        <path
+          d="M12 -8 L12 10 M12 -8 Q14 -10 16 -8"
+          stroke="white"
+          strokeWidth="3"
+          strokeLinecap="round"
+          fill="none"
+        />
+        <circle cx="14" cy="-12" r="1.5" fill="white" />
+      </g>
+    </svg>
+  );
+};
